@@ -1,18 +1,19 @@
 @import "variables.scss";
+@import "mixins.scss";
+@import "extends.scss";
 
 body {
     font-family: $font;
 }
-h1{
-    font-size: $size*4;
+.text-box{
+    width: 100%;
+    margin: 20% 0;
+    padding: 0 10%;
+    border: 1px solid yellow;
 }
-.square{
-    width: $size*5;
-    height: $size*5;
-    border: 1px solid $font-color;
-    transform: rotateZ(45deg);
-    margin: 20px auto;
+.info{
+    @extend .text-box;
 }
-p{
-    transform: rotateZ(180deg);
+.warning{
+    @extend .text-box;
 }

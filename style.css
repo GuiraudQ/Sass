@@ -3,18 +3,9 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-h1 {
-  font-size: 60px;
-}
-
-.square {
-  width: 75px;
-  height: 75px;
-  border: 1px solid Maroon;
-  transform: rotateZ(45deg);
-  margin: 20px auto;
-}
-
-p {
-  transform: rotateZ(180deg);
+.text-box, .warning, .info {
+  width: 100%;
+  margin: 20% 0;
+  padding: 0 10%;
+  border: 1px solid yellow;
 }/*# sourceMappingURL=style.css.map */
