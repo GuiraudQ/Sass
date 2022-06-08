@@ -1,0 +1,12 @@
+@import "variable.scss";
+
+
+div{
+    background: $bg1;
+    p{
+        color: chocolate;
+    }
+    :hover{
+        background: $bg2;
+    }
+}
