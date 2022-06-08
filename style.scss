@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+body {
+    font: $size $font;
+}
+h1{
+    font-size: $size*4;
+}
+div div{
+    background: $bg;
+    color: $font-color;
+    padding: $size;
+    margin: $size 0;
+    h2{
+        font-size: $size*2;
+    }
+}
